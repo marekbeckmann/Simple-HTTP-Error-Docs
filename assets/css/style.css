@@ -1,0 +1,98 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.big-title {
+    text-align: center;
+    font-family: Concert One;
+    color: #4f4f4f;
+    font-size: 300px;
+    display: inline;
+}
+
+.errordescription {
+    text-align: center;
+    font-family: Cairo, serif;
+    color: #4f4f4f;
+    font-size: 34px;
+}
+
+.link {
+    color: #3495eb;
+    text-decoration: none;
+}
+
+.container {
+    padding: 35px 50px 35px 50px;
+}
+
+#char-1 {
+    color: #b50b00;
+}
+
+#char-2 {
+    color: #000000;
+}
+
+#char-3 {
+    color: #b50b00;
+}
+
+.errorheader {
+    display: table;
+    margin: 0 auto;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .big-title {
+        font-size: 135px;
+    }
+    .errordescription {
+        font-size: 20px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .big-title {
+        font-size: 145px;
+    }
+    .errordescription {
+        font-size: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .big-title {
+        font-size: 200px;
+    }
+    .errordescription {
+        font-size: 30px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .big-title {
+        font-size: 300px;
+    }
+    .errordescription {
+        font-size: 34px;
+    }
+}
