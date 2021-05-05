@@ -24,7 +24,7 @@ Next, adjust your NGINX config and add the following to your VHost config
     error_page 403 /errordocs?ref=403;
     error_page 500 502 503 504 /errordocs?ref=50X;
 
-You can specify the ref part, to display any string you want. However,  it's intended to just be the three digits of the error code.
+You can specify the ref part, to display any 3-digit string you want. However,  it's intended to just be the three digits of the error code.
 
 
 **Thank your for using this template. Feel free to leave my any feedback.**
