@@ -39,7 +39,7 @@ $splittedref = preg_split('//', $refcode, -1, PREG_SPLIT_NO_EMPTY);
         echo "<p class=\"errordescription\">We're sorry, but the requested URL was not found on this server! Please check for misspelling, or simply return to the <a class=\"link\" href=\"/\">Homepage</a></p>";
     } elseif ($refcode == 403) {
         echo "<p class=\"errordescription\">We're sorry, but you don't have access to this content! You can return to the <a class=\"link\" href=\"/\">Homepage</a> here</p>";
-    } elseif (str_starts_with($refcode, 50)) {
+    } elseif (strpos($refcode, "50") !== false) {
         echo "<p class=\"errordescription\">We're sorry, but it seems, as if our server couldn't handle that request! Please try again in a moment, or return to the <a class=\"link\" href=\"/\">Homepage</a></p>";
     } else {
         echo "<p class=\"errordescription\">Seems like something went wrong! Please try again in a moment, or return to the <a class=\"link\" href=\"/\">Homepage</a></p>";
