@@ -27,4 +27,4 @@ Next, adjust your NGINX config and add the following to your VHost config
 You can specify the ref part, to display any 3-digit string you want. However,  it's intended to just be the three digits of the error code.
 
 
-**Thank your for using this template. Feel free to leave my any feedback.**
+**Thank your for using this template. Feel free to leave me any feedback.**
