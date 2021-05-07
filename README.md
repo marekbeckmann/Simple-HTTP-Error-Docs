@@ -1,6 +1,6 @@
 # NGINX Error Docs
 
-This is a simple PHP errordocument, that you can use to handle NGINX errors. It makes it very easy to handle all NGINX errors, with only one file. In the following readme, I also added a sample config for your convinience.
+This is a simple PHP error document, that you can use to handle NGINX errors. It makes it very easy to handle all NGINX errors, with only one file. In the following readme, I also added a sample config for your convinience.
 
 ## 1. Features:
 
