@@ -9,8 +9,7 @@ This is a simple PHP error document, that you can use to handle NGINX errors. It
    
 Screenshot Desktop: 
 
-![image](https://user-images.githubusercontent.com/80179488/132218039-cdd3d7fa-6a0b-4d08-8b28-2af0ee5ff247.png)
-
+![Untitled-1](https://user-images.githubusercontent.com/80179488/132218279-019f9572-ccce-45db-9cc6-d8c2336ec1b2.jpg)
 
 ## 2. Download and Installation:
 
