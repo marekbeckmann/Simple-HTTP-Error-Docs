@@ -6,6 +6,7 @@ This is a simple PHP error document, that you can use to handle NGINX errors. It
 
  - Handle all errors, such as 403, 404, 50X etc. 
  - Minimalistic (CSS, JS only)
+ - Error Code Animation
    
 Screenshot Desktop: 
 
