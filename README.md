@@ -5,10 +5,12 @@ This is a simple PHP error document, that you can use to handle NGINX errors. It
 ## 1. Features:
 
  - Handle all errors, such as 403, 404, 50X etc. 
- - Redirect to Homepage
- - One file for everything
- 
+ - Minimalistic (CSS, JS only)
+   
 Screenshot Desktop: 
+
+![image](https://user-images.githubusercontent.com/80179488/132218039-cdd3d7fa-6a0b-4d08-8b28-2af0ee5ff247.png)
+
 
 ## 2. Download and Installation:
 
@@ -24,7 +26,7 @@ Next, adjust your NGINX config and add the following to your VHost config
     error_page 403 /errordocs?ref=403;
     error_page 500 502 503 504 /errordocs?ref=50X;
 
-You can specify the ref part, to display any 3-digit string you want. However,  it's intended to just be the three digits of the error code.
+You can specify the ref part, to display any 3-digit string you want. However,  it's intended to just be the three digits of the error code. If you don't provide a Error Code, 404 is assumed
 
 
 **Thank your for using this template. Feel free to leave me any feedback.**
