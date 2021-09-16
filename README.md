@@ -25,7 +25,7 @@ Next, adjust your Webservers/Webapps config and direct all errors to this file. 
 errordocs/index.html?ref=404
 ```
 
-You can specify the ref part, to display any 3-digit string you want. However,  it's intended to just be the three digits of the error code. If you don't provide a Error Code, 404 is assumed
+You can specify the ref part, to display any 3-digit string you want. However,  it's intended to just be the three digits of the error code. If you don't provide an error code, 404 is assumed
 
 
 **Thank your for using this template. Feel free to leave me any feedback.**
