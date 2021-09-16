@@ -20,7 +20,10 @@ git clone https://github.com/mlhbeckmann/simple-nginx-error-docs.git
 ```
 Copy it's content to a subdirectory of  your webdirectory, such as `errordocs`
 
-Next, adjust your Webservers/Webapps config and add the following to your VHost config
+Next, adjust your Webservers/Webapps config and direct all errors to this file. Depending on the error, set the `?ref=` parameter. E.g for 404 Errors: 
+```
+errordocs/index.html?ref=404
+```
 
 You can specify the ref part, to display any 3-digit string you want. However,  it's intended to just be the three digits of the error code. If you don't provide a Error Code, 404 is assumed
 
